@@ -8,7 +8,7 @@ Para utilizar essa calculadora basta apenas o usuário digitar o seu peso e a su
 
 # Tecnologias
 ### Para a realização deste projeto, foi utilizado HTML5, CSS3 e Javascript.
-Com o HTML5, fizemos a estrutura da página da calculadora, a tabela e as DIVs.
+Com o HTML5, foi criada a estrutura da página da calculadora, a tabela e as DIVs.
 Com o CSS3, estilizamos a página, ou seja, deixamos ela visualmente bonita e aceitável para o usuário.
 Com o Javascript, fizemos com que a calculadora interagisse com o usuário e que ficasse sendo responsável pelos cálculos do IMC.
 
@@ -16,4 +16,4 @@ Com o Javascript, fizemos com que a calculadora interagisse com o usuário e que
 Esse projeto foi feito por Ciro e Nágila.
 
 # Destino
-Esse projeto é um trabalho para a matéria de 'Desenvolvimento Web', da turma do 2° ano de informática, da escola EEEP Manoel Mano, na cidade de Crateús, Ceará.
+Esse projeto é um trabalho para a matéria de 'Desenvolvimento Web', da turma do 2° ano de informática.
