@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+
+    <style> 
+        table, th, td{  
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-left: 0px;
+            border-right: 0px;
+            text-align: center;
+            width: 500px;
+            margin: 100px auto;
+        }
+        
+        th, td{
+            padding: 5px 1px;
+        }
+
+        th{
+            background-color: #1815caa1;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="background" id="background"></div>
+    <div class="container">
+        <div class="titulo">
+            <h4>Calculadora de IMC</h4>
+        </div>
+        <div class="inputs">
+            Peso: <br><input type="text" id="peso"/> 
+        </div>
+        <div class="inputs">
+            Altura: <br><input type="text" id="altura"/>
+        </div>
+        <div>
+            <button type="submit" onclick="calcIMC()">Calcular IMC</button>
+        </div>
+        <div class="quad">
+            <div id="botao"></div>
+        </div>
+    </div>
+
+
+    <table>
+        <tr>
+            <th>IMC</th>
+            <th>CLASSIFICAÇÃO</th>
+            <th>OBESIDADE</th>
+        </tr>
+        <tr>
+            <td>Menor que 18,5</td>
+            <td>MAGREZA</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Entre 18,5 e 24,9</td>
+            <td>NORMAL</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Entre 25,0 e 29,9</td>
+            <td>SOBREPESO</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>Entre 30,0 e 39,9</td>
+            <td>OBESIDADE</td>
+            <td>II</td>
+        </tr>
+        <tr>
+            <td>Maior que 40,0</td>
+            <td>OBESIDADE GRAVE</td>
+            <td>III</td>
+        </tr>
+    </table>
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
